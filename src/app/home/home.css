@@ -4,9 +4,11 @@
     color: white;
     font-size: medium;
     align-items: center;
+    display: flex;
     justify-content: center;
     background-color: blue;
     }
+    
     h1, p, h3 {
     text-align: center;
     color: darkblue;

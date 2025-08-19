@@ -7,5 +7,6 @@ import { Component } from '@angular/core';
   styleUrl: './about-us.css'
 })
 export class AboutUs {
-
+    name: string = 'Jane Doe';
+    today: Date = new Date();
 }

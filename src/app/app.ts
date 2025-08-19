@@ -1,19 +1,23 @@
 import { Component } from '@angular/core';
-import { Home } from './home/home';
+import { RouterOutlet } from '@angular/router';
 
 @Component({
   selector: 'app-root',
-  templateUrl: './app.html',
-  imports: [Home],
+  template: `
+    <nav>
+      <a href="/">Home</a>
+      |
+      <a href="/about-us">About Us</a>
+    </nav>
+    <router-outlet />
+  `,
+
+  imports: [RouterOutlet],
   styleUrl: './app.css'
 })
-export class App {
-   name: string = 'Jane Doe';
-   today: Date = new Date();
 
-  //  changeTitle() {
-  //   document.querySelector('#title').innerHTML= "Touched the DOM";
-  //  }
+export class App {
+
 }
 
 

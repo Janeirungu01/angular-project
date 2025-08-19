@@ -1,0 +1,14 @@
+    button {
+    border-radius: 8px;
+    padding: 10px 15px;
+    color: white;
+    font-size: medium;
+    align-items: center;
+    justify-content: center;
+    background-color: blue;
+    }
+    h1, p, h3 {
+    text-align: center;
+    color: darkblue;
+    }
+

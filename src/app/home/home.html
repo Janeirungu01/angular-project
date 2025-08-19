@@ -1,10 +1,8 @@
-<app-home></app-home>
-
 <h1>{{title}}</h1>
 <button [disabled]="clicked" (click)="handleClick()">Click me</button>
 
 @if (clicked) {
     <h3>{{boat.name}}</h3>
-    <p>built in the Year {{boat.year}}</p>
+    <p>Built in the Year {{boat.year}}</p>
 }
 

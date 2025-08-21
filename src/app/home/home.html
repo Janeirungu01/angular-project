@@ -1,8 +1,20 @@
 <h1>{{title}}</h1>
 <button [disabled]="clicked" (click)="handleClick()">Click me</button>
+<p>My favorite framework is: {{ favframework }}</p>
+
+<label for="framework">Best framework
+  <input 
+    id="framework" 
+    type="text" 
+    [(ngModel)]="favframework" 
+    name="framework" 
+    required
+  />
+</label>
 
 @if (clicked) {
     <h3>{{boat.name}}</h3>
     <p>Built in the Year {{boat.year}}</p>
 }
 
+ 

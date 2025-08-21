@@ -1,16 +1,29 @@
-    button {
-    border-radius: 8px;
-    padding: 10px 15px;
-    color: white;
-    font-size: medium;
-    align-items: center;
-    display: flex;
-    justify-content: center;
-    background-color: blue;
-    }
+body {
+  font-family: Arial, sans-serif;
+  color: darkblue;
+  margin: 0;
+  padding: 0;
+}
+
+button {
+  border-radius: 8px;
+  padding: 10px 15px;
+  background-color: blue;
+  color: white;
+  cursor: pointer;
+  border: none;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
     
-    h1, p, h3 {
+h1, p, h3 {
     text-align: center;
     color: darkblue;
-    }
+}
+label {
+  display: block;
+  margin: 10px 0;
+  font-weight: 500;
+}
 

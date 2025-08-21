@@ -1,8 +1,9 @@
 import { Component } from '@angular/core';
+import { FormsModule } from '@angular/forms';
 
 @Component({
   selector: 'app-home',
-  imports: [],
+  imports: [FormsModule],
   templateUrl: './home.html',
   styleUrl: './home.css'
 })
@@ -14,6 +15,7 @@ export class Home {
     this.clicked = true;
   }
 
+  favframework: string = '';
   // directive- a component without html or css. attaches to a host element
 
   boat = {
